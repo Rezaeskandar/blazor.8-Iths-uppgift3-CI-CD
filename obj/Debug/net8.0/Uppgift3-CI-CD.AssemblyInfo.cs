@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Uppgift3-CI-CD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b38360292e6cbc3395db5d7007b89e08c77aa16")]
 [assembly: System.Reflection.AssemblyProductAttribute("Uppgift3-CI-CD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Uppgift3-CI-CD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

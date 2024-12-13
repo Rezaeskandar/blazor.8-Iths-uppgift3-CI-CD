@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Uppgift3-CI-CD.props" />
+</Project>

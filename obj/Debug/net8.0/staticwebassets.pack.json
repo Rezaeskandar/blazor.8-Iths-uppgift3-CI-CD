@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\src\\iths\\Uppgift3-CI-CD\\Uppgift3-CI-CD\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Uppgift3-CI-CD.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Uppgift3-CI-CD.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\src\\iths\\Uppgift3-CI-CD\\Uppgift3-CI-CD\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\src\\iths\\Uppgift3-CI-CD\\Uppgift3-CI-CD\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\src\\iths\\Uppgift3-CI-CD\\Uppgift3-CI-CD\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\src\\iths\\Uppgift3-CI-CD\\Uppgift3-CI-CD\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Uppgift3-CI-CD.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Uppgift3-CI-CD.props",
+      "PackagePath": "build\\Uppgift3-CI-CD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Uppgift3-CI-CD.props",
+      "PackagePath": "buildMultiTargeting\\Uppgift3-CI-CD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Uppgift3-CI-CD.props",
+      "PackagePath": "buildTransitive\\Uppgift3-CI-CD.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
