@@ -25,13 +25,16 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o "${{ runner.workspace }}/myapp"
+        run: dotnet publish -c Release -o .
+
+      - name: List files in workspace
+        run: dir .
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{ runner.workspace }}/myapp
+          path: .
 
   deploy:
     runs-on: windows-latest
@@ -52,5 +55,5 @@ jobs:
         with:
           app-name: 'Balazor-webbapp-uppgift3'
           slot-name: 'Production'
-          package: ${{ runner.workspace }}/myapp
+          package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C09BC7E814CC41CEAAAECA42D2286047 }}
